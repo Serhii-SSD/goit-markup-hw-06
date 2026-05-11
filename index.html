@@ -158,7 +158,7 @@
                 </svg>
               </div>
               <h3 class="title">Technologies</h3>
-              <p class="text">
+              <p class="advantages-text">
                 Design practice focused on digital experiences. We bring forth a
                 deep passion for problem-solving.
               </p>
@@ -173,14 +173,15 @@
           <ul class="team-list">
             <li class="names">
               <img
-                src="./images/img-3.jpg"
+                srcset="./images/img-3.jpg 1x, ./img/images/img-3x2.jpg 2x"
+                src="./img/photo.jpg"
                 alt="Mark Guerrero"
                 width="264"
                 height="260"
               />
               <div class="person-position-card">
                 <h3 class="title">Mark Guerrero</h3>
-                <p class="text">Product Designer</p>
+                <p class="advantages-text">Product Designer</p>
 
                 <ul class="list-social-icons">
                   <li class="list-icons">
@@ -216,6 +217,7 @@
             </li>
             <li class="names">
               <img
+                srcset="./images/img-2.jpg 1x, ./img/images/img-2x2.jpg 2x"
                 src="./images/img-2.jpg"
                 alt="Tom Ford"
                 width="264"
@@ -223,7 +225,7 @@
               />
               <div class="person-position-card">
                 <h3 class="title">Tom Ford</h3>
-                <p class="text">Frontend Developer</p>
+                <p class="advantages-text">Frontend Developer</p>
 
                 <ul class="list-social-icons">
                   <li class="list-icons">
@@ -259,6 +261,7 @@
             </li>
             <li class="names">
               <img
+                srcset="./images/img-1.jpg 1x, ./img/images/img-1x2.jpg 2x"
                 src="./images/img-1.jpg"
                 alt="Camila Garcia"
                 width="264"
@@ -266,7 +269,7 @@
               />
               <div class="person-position-card">
                 <h3 class="title">Camila Garcia</h3>
-                <p class="text">Marketing</p>
+                <p class="advantages-text">Marketing</p>
 
                 <ul class="list-social-icons">
                   <li class="list-icons">
@@ -302,6 +305,7 @@
             </li>
             <li class="names">
               <img
+                srcset="./images/img.jpg 1x, ./img/images/imgx2.jpg 2x"
                 src="./images/img.jpg"
                 alt="Daniel Wilson"
                 width="264"
@@ -354,7 +358,8 @@
             <li class="portfolio-items">
               <div class="img-wrapper">
                 <img
-                  src="./images/img-5.jpg"
+                  srcset="./images/img-9.jpg 1x, ./img/images/img-9x2.jpg 2x"
+                  src="./images/img-9.jpg"
                   alt="Banking App"
                   width="360"
                   height="300"
@@ -374,7 +379,8 @@
             <li class="portfolio-items">
               <div class="img-wrapper">
                 <img
-                  src="./images/img-6.jpg"
+                  srcset="./images/img-8.jpg 1x, ./img/images/img-8x2.jpg 2x"
+                  src="./images/img-8.jpg"
                   alt="Cashless Payment"
                   width="360"
                   height="300"
@@ -393,6 +399,7 @@
             <li class="portfolio-items">
               <div class="img-wrapper">
                 <img
+                  srcset="./images/img-7.jpg 1x, ./img/images/img-7x2.jpg 2x"
                   src="./images/img-7.jpg"
                   alt="Meditaion App"
                   width="360"
@@ -412,7 +419,8 @@
             <li class="portfolio-items">
               <div class="img-wrapper">
                 <img
-                  src="./images/img-8.jpg"
+                  srcset="./images/img-6.jpg 1x, ./img/images/img-6x2.jpg 2x"
+                  src="./images/img-6.jpg"
                   alt="Taxi Service"
                   width="360"
                   height="300"
@@ -431,7 +439,8 @@
             <li class="portfolio-items">
               <div class="img-wrapper">
                 <img
-                  src="./images/img-9.jpg"
+                  srcset="./images/img-5.jpg 1x, ./img/images/img-5x2.jpg 2x"
+                  src="./images/img-5.jpg"
                   alt="Screen Illustrations"
                   width="360"
                   height="300"
@@ -450,7 +459,8 @@
             <li class="portfolio-items">
               <div class="img-wrapper">
                 <img
-                  src="./images/img-10.jpg"
+                  srcset="./images/img-4.jpg 1x, ./img/images/img-4x2.jpg 2x"
+                  src="./images/img-4.jpg"
                   alt="Online Courses"
                   width="360"
                   height="300"
@@ -538,7 +548,7 @@
       </div>
     </footer>
 
-    <div class="modal-overlay none">
+    <div class="modal-overlay">
       <div class="modal">
         <button class="modal-close-button" type="button">
           <svg class="modal-close-icon" width="8" height="8">
@@ -619,8 +629,10 @@
                   <use href="./images/icons.svg#check-mark"></use>
                 </svg>
               </span>
-              I accept the terms and conditions of the
-              <a class="link-privacy-policy" href="">Privacy Policy</a>
+              <span
+                >I accept the terms and conditions of the
+                <a class="link-privacy-policy" href="">Privacy Policy</a>
+              </span>
             </label>
           </div>
           <button class="modal-button" type="submit">Send</button>

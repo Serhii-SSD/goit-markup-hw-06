@@ -21,14 +21,12 @@
   line-height: 1.11;
   text-align: center;
   margin-bottom: 72px;
-
-  @media screen and (min-width: 1158px) {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-  }
 }
-
+.advantages-text {
+  margin-bottom: 8px;
+  font-weight: 400;
+  font-size: 16px;
+}
 .team-list {
   display: flex;
   flex-direction: column;
@@ -79,4 +77,5 @@
 .person-position-card .text {
   text-align: center;
   font-weight: 400;
+  margin-bottom: 8px;
 }

@@ -1,6 +1,5 @@
-.advantages {
-  max-width: 1158px;
-  margin: 0 auto;
+.advantages-text {
+  text-align: center;
 }
 
 .advantages-list {
@@ -13,6 +12,9 @@
     flex-wrap: wrap;
     gap: 72px 24px;
   }
+}
+.person-position-card {
+  text-align: center;
 }
 .advantages-icon-container {
   display: none;

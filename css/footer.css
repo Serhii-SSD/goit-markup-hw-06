@@ -93,7 +93,7 @@
 .footer-form-conteiner {
   display: flex;
   flex-direction: column;
-  @media screen and (min-width: 768px) and (max-width: 1157px) {
+  @media screen and (max-width: 767px) {
     width: 100%;
   }
 }
@@ -153,7 +153,7 @@
   }
 
   @media screen and (min-width: 768px) {
-    width: 100%;
+    width: 264px;
   }
 }
 
